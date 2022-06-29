@@ -18,7 +18,7 @@ The dataset we utilized can be found on Kaggle by Dr. Omar Romero-Hernandez of B
 5. Does the number of kids one has at home affect how much they spend on fruit? 
 
 ## Important Variables
-The original dataset includes 29 variables of 2240 customers. By choosing to focus on customers' fruit-buying habits, we were able to pick out the following variables relevant to our research.
+The original dataset includes 29 variables of 2240 customers (3 are character variables and 26 are numerical variables). By choosing to focus on customers' fruit-buying habits, we were able to pick out the following variables relevant to our research.
 
 **Independent Variables:**
 * Year_Birth
