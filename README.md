@@ -32,9 +32,23 @@ The original dataset includes 29 variables of 2240 customers (3 are character va
 
 | Variable_Name | Description | 
 |---------------|-------------|
-| Year_Birth | Customer's Birth Year|
-| Education   | Customer's Education Level|
-| Marital_Status | Customer's Marital Status|
-| Income | Customer's Yearly Household Income|
-| KidHome | Number of Children In a Customer's Household|
-| MntFruits | Amount Spend on Fruits In Last 2 Years|
+| `Year_Birth` | Customer's Birth Year|
+| `Education`   | Customer's Education Level|
+| `Marital_Status` | Customer's Marital Status|
+| `Income` | Customer's Yearly Household Income|
+| `KidHome` | Number of Children In a Customer's Household|
+| `MntFruits` | Amount Spend on Fruits In Last 2 Years|
+
+## Data Manipulation & Cleansing
+
+`Education` - Upon further research, we found that the responses that had `2n Cycle` are actually equivalent to having a master's degree in other parts of the world. So, we manipulated the data to 4 distinctive categories: `High School Diploma`, `Bachelor's Degree`, `Master's Degree` and `Ph.D`. 
+
+`Year_Birth` - To optimize interpretability, we created an `Age` column by the formula: `Age` = 2022 - `Year_Birth`
+
+`Marital_Status` - We found odd responses for this variable such as `Absurd` or `Yolo`, so we chose to omit these two responses. The response for `Alone` meant the same as `Single`, so we mutated these two responses together.
+
+`Education` & `KidHome` - We recoded these variables as factors to help with our logistic model.
+
+## Our Findings
+
+
