@@ -20,12 +20,21 @@ The dataset we utilized can be found on Kaggle by Dr. Omar Romero-Hernandez of B
 ## Important Variables
 The original dataset includes 29 variables of 2240 customers. By choosing to focus on customers' fruit-buying habits, we were able to pick out the following variables relevant to our research.
 
-Independent Variables:
+**Independent Variables:**
 * Year_Birth
 * Education
-* Marital_Statust
+* Marital_Status
 * Income
 * KidHome
 
-Dependent Variable:
+**Dependent Variable:**
 * MntFruits
+
+| Variable_Name | Description | 
+|---------------|-------------|
+| Year_Birth | Customer's Birth Year|
+| Education   | Customer's Education Level|
+| Marital_Status | Customer's Marital Status|
+| Income | Customer's Yearly Household Income|
+| KidHome | Number of Children In a Customer's Household|
+| MntFruits | Amount Spend on Fruits In Last 2 Years|
