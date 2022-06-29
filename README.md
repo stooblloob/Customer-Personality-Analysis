@@ -50,7 +50,7 @@ The original dataset includes 29 variables of 2240 customers (3 are character va
 
 `Education` - Upon further research, we found that the responses that had `2n Cycle` are actually equivalent to having a master's degree in other parts of the world. So, we manipulated the data to 4 distinctive categories: `High School Diploma`, `Bachelor's Degree`, `Master's Degree` and `Ph.D`. 
 
-`Year_Birth` - To optimize interpretability, we created an `Age` column by the formula: `Age` = 2022 - `Year_Birth`. Extreme outliers were also omitted.
+`Year_Birth` - To optimize interpretability, we created an `Age` column by using the formula: `Age` = 2022 - `Year_Birth`. Extreme outliers were also omitted.
 
 `Marital_Status` - We found abnormal responses for this variable such as `Absurd` or `Yolo`, so we chose to omit these two responses. The response for `Alone` meant the same as `Single`, so we mutated these two responses together.
 
