@@ -2,13 +2,6 @@
 
 ## Authors: Stella Aurelia, Felix Gao, Leslie Vazquez Moreno, Sean Nguyen, and Victoria Nguyen
 
-## Roles
-* **Stella Aurelia:** Exploring levels of education and formatting the presentation slides
-*  **Felix Gao:** Exploring levels of income and creating the logistic regression model
-*  **Leslie Vazquez Moreno:** Exploring age
-*  **Sean Nguyen:** Exploring marital status
-*  **Victoria Nguyen:** Exploring number of kids at customer's household
-
 ## Introduction
 This is my first collaborative data science project from my senior year of undergrad at the University of California, Riverside. We conducted research on the characteristic and fruit-purchasing habits of a business's customers with the goal of being able to model the traits of the ideal customer for this business to further market fruit towards. 
 
@@ -80,9 +73,9 @@ Using kmeans clustering, we see that the clusters are not useful for grouping `A
 We predict `Age` will have little effect on `MntFruits` if it is a statistically significant predictor.
 
 3. 
-From the graphs and test that I conducted I can conclude that married people, on averge do not spend more than other groups of different marital status.
+From the graphs and test conducted we can conclude that married people, on averge do not spend more than other groups of different marital status.
 
-From the Kruskal-Wallis test, I can also conclude that the distribution between the marital status group are identical. 
+From the Kruskal-Wallis test, we can also conclude that the distribution between the marital status group are identical. 
 
 4. 
 Based on the scatter plot and the correlation, we can say there is a linear relationship of moderate strength between income and amount spent on fruits.
